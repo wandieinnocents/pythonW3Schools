@@ -28,6 +28,28 @@ def main():
     print(x)
 
 
+    z = "Awesome"
+    print("Python is " + z)
+    print("Python is : {}".format(z))
+
+    #combining strings
+
+    a = "Python is "
+    b = "Awesome mehn"
+    word = a+b
+    print(word)
+
+    #adding numbers
+    p = 5
+    q = 6
+    sum = p+q
+    print("Sum is : {} ".format(sum))
+
+    #comnbining number and string  you get err
+    # x = 5
+    # y = "John"
+    # print(x + y)
+
     
 
 
