@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa5865bd-30f5-4b5c-950e-acf7d3deeb22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Lists_dictionary_turples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lists_dictionary_turples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lists_dictionary_turples.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="486">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -364,7 +364,28 @@
       <option name="project" value="LOCAL" />
       <updated>1561375530223</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="remove items from a list..">
+      <created>1561375884468</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1561375884468</updated>
+    </task>
+    <task id="LOCAL-00016" summary="delete item with index in list[flexible]">
+      <created>1561376028495</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1561376028495</updated>
+    </task>
+    <task id="LOCAL-00017" summary="reversing a list ...">
+      <created>1561377210908</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1561377210908</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -376,7 +397,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,7 +426,10 @@
     <MESSAGE value="looping in a list" />
     <MESSAGE value="checking if item exists in the list.." />
     <MESSAGE value="add item to list myList" />
-    <option name="LAST_COMMIT_MESSAGE" value="add item to list myList" />
+    <MESSAGE value="remove items from a list.." />
+    <MESSAGE value="delete item with index in list[flexible]" />
+    <MESSAGE value="reversing a list ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="reversing a list ..." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Numbers.py" />
@@ -447,8 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lists_dictionary_turples.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="486">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
