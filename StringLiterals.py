@@ -23,6 +23,14 @@
 word = "ABCDEFG"
 print(word[2:6])
 
+a = " Hello, World! "
+print(a.strip()) # returns "Hello, World!"
+
+print(len(a))
+print(a.upper())
+
+print(a.replace("H","K"))
+
 
 
 
