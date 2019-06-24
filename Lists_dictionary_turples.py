@@ -28,3 +28,10 @@ if "kavuma" in myList:
     print("Item exists in the list")
 else:
     print("item does not exist")
+
+#determine items in a list
+print(len(myList))
+
+#append item to list
+myList.append("sample_added_item")
+print(myList)
