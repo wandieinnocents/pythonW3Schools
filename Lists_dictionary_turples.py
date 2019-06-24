@@ -35,3 +35,35 @@ print(len(myList))
 #append item to list
 myList.append("sample_added_item")
 print(myList)
+
+#remove item from the list
+myList.remove("sample_added_item")
+print(myList)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
