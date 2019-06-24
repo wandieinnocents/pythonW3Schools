@@ -52,12 +52,19 @@ del myList[1]
 print(myList)
 
 
+#make a copy of list and store the values in anothe variable
+
+copyList = myList.copy()
+print(copyList)
+
+print("original List")
+lst = [10, 11, 12, 13, 14, 15]
 
 
+print(lst.reverse())
 
-
-
-
+print("Reversed List")
+print(lst)
 
 
 
