@@ -41,6 +41,18 @@ myList.remove("sample_added_item")
 print(myList)
 
 
+#remove_item from list with index
+#pop removes last item if not index is specified
+
+myList.pop()
+print(myList)
+
+#use del to remove specified index
+del myList[1]
+print(myList)
+
+
+
 
 
 
