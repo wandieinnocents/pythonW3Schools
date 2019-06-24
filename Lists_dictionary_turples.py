@@ -21,3 +21,10 @@ print(myList)
 #prints all items in myList
 for x in myList:
     print(x)
+
+#check if items exists in list
+
+if "kavuma" in myList:
+    print("Item exists in the list")
+else:
+    print("item does not exist")
