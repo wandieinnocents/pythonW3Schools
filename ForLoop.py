@@ -20,10 +20,17 @@ for position in names:
         continue
     print(position)
 
+print("range of 4")
 #range of 4
 for x in range(4):
     print(x)
 
+print("range of 10")
 #range of 10
 for y in range(10):
     print(y)
+
+#specifying start value in range
+print("range specified")
+for p in range(2,9):
+    print(p)
