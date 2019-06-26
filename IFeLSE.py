@@ -9,4 +9,5 @@ elif(a < b):
 else:
     print("invalid")
 
+#short_hand
 print("A") if a > b else print("=") if a == b else print("B")
