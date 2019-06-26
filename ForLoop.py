@@ -31,6 +31,21 @@ for y in range(10):
     print(y)
 
 #specifying start value in range
+#prints values 0 - 8
 print("range specified")
 for p in range(2,9):
     print(p)
+
+#increaseing sequence by certain number in range
+print("Adding a sequence of like 2,3 ")
+#param1 = first value param2 = last value param 3 = sequence
+for x in range(2, 30, 3):
+  print(x)
+
+print("nested loops")
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
