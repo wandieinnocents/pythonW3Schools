@@ -17,6 +17,10 @@ def loopingValues(values):
     for x in values:
         print(x)
 
+#returning values
+def retValues(number):
+    return 5*number
+
 #function main declaration
 def main():
     #calling a function
@@ -36,6 +40,10 @@ def main():
     names = ["wandie","innocent","kavuma"]
     print(names)
 
+    #returning values on number input
+    print("returning values on number usage")
+
+    print(retValues(7))
 
 
 
