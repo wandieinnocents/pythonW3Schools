@@ -25,3 +25,11 @@ except:
     print("something went wrong")
 else:
     print("nothing went wrong")
+
+#finally block is executed regardless of whether something goes wrong
+try:
+    print(x)
+except:
+    print("something is wrong")
+finally:
+    print("the try catch is complete")
