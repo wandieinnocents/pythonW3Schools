@@ -17,5 +17,5 @@ data = {
   "city": "New York"
 }
 
-convert = json.dumps(data)
+convert = json.dumps(data,indent=4)
 print(convert)
