@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa5865bd-30f5-4b5c-950e-acf7d3deeb22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FileHandling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,16 +84,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FileHandling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="227">
+              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -147,8 +145,8 @@
         <option value="$PROJECT_DIR$/RegularExpressions.py" />
         <option value="$PROJECT_DIR$/Pip.py" />
         <option value="$PROJECT_DIR$/TryAndCatch.py" />
-        <option value="$PROJECT_DIR$/FileHandling.py" />
         <option value="$PROJECT_DIR$/demo.txt" />
+        <option value="$PROJECT_DIR$/FileHandling.py" />
       </list>
     </option>
   </component>
@@ -320,13 +318,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561096813225</updated>
-    </task>
-    <task id="LOCAL-00001" summary="docstring python">
-      <created>1561097764285</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1561097764285</updated>
     </task>
     <task id="LOCAL-00002" summary="working with variables">
       <created>1561098027533</created>
@@ -657,13 +648,45 @@
       <option name="project" value="LOCAL" />
       <updated>1561618492498</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="read first 5 characters in a file">
+      <created>1561620323393</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1561620323393</updated>
+    </task>
+    <task id="LOCAL-00050" summary="removing_deleting files">
+      <created>1561620936633</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1561620936635</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988086" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4980143" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39863014" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50119144" side_tool="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -681,7 +704,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -710,8 +733,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="looping through the values in the array.." />
-    <MESSAGE value="short hand.. in python , one statment, multiple conditions" />
     <MESSAGE value="loops.." />
     <MESSAGE value="python while loops" />
     <MESSAGE value="looping values.." />
@@ -735,7 +756,9 @@
     <MESSAGE value="name_error_exeption" />
     <MESSAGE value="when nothing goes wrong [else]-" />
     <MESSAGE value="using finaly -" />
-    <option name="LAST_COMMIT_MESSAGE" value="using finaly -" />
+    <MESSAGE value="read first 5 characters in a file" />
+    <MESSAGE value="removing_deleting files" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing_deleting files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Numbers.py" />
@@ -880,17 +903,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileHandling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileHandling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
         </state>
       </provider>
     </entry>
