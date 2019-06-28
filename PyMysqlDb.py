@@ -21,5 +21,6 @@ mycursor = mydb.cursor()
 #mycursor.execute("CREATE DATABASE w3schools")
 
 mycursor.execute("SHOW DATABASES")
+#loop through dbs and return them all to user
 for x in mycursor:
     print(x)
