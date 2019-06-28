@@ -24,3 +24,12 @@ specific_data= mycursor.fetchall()
 for table_data_values in specific_data:
     print(table_data_values)
 
+
+#if you want to fetch one row
+#use this
+
+# mycursor.execute("SELECT * FROM customers")
+#
+# myresult = mycursor.fetchone()
+#
+# print(myresult)
