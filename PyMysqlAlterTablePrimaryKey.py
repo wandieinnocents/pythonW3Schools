@@ -10,6 +10,7 @@ mydb = mysql.connector.connect(
     database = "w3schools"
 )
 
+
 mycursor = mydb.cursor()
 
 mycursor.execute("ALTER TABLE customers ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY")
