@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa5865bd-30f5-4b5c-950e-acf7d3deeb22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PyMysqlDb.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyMysqlDb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyDbCreateTable.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Arrays.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,9 +75,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyMysqlCheckDb.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PyDbCreateTable.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -145,6 +149,7 @@
         <option value="$PROJECT_DIR$/FileHandling.py" />
         <option value="$PROJECT_DIR$/PyMysqlDb.py" />
         <option value="$PROJECT_DIR$/PyMysqlCheckDb.py" />
+        <option value="$PROJECT_DIR$/PyDbCreateTable.py" />
       </list>
     </option>
   </component>
@@ -190,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PyMysqlCheckDb">
+  <component name="RunManager" selected="Python.PyDbCreateTable">
     <configuration name="FileHandling" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="W3SchoolsPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,7 +217,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Pip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PyDbCreateTable" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="W3SchoolsPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,7 +229,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pip.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyDbCreateTable.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,11 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PyDbCreateTable" />
         <item itemvalue="Python.PyMysqlCheckDb" />
         <item itemvalue="Python.PyMysqlDb" />
         <item itemvalue="Python.FileHandling" />
         <item itemvalue="Python.TryAndCatch" />
-        <item itemvalue="Python.Pip" />
       </list>
     </recent_temporary>
   </component>
@@ -316,13 +321,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561096813225</updated>
-    </task>
-    <task id="LOCAL-00004" summary="num formats, int, float, complex numbers">
-      <created>1561098720128</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1561098720128</updated>
     </task>
     <task id="LOCAL-00005" summary="...">
       <created>1561098898108</created>
@@ -660,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561711092991</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="checking if the database exists..">
+      <created>1561711351400</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1561711351401</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -672,7 +677,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988086" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988086" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -746,7 +751,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="looping values.." />
     <MESSAGE value="range of numbers" />
     <MESSAGE value="specified range of numbers.." />
     <MESSAGE value="nested loops" />
@@ -771,7 +775,8 @@
     <MESSAGE value="removing_deleting files" />
     <MESSAGE value="create mysql database" />
     <MESSAGE value="show databases - check if created db: exists" />
-    <option name="LAST_COMMIT_MESSAGE" value="show databases - check if created db: exists" />
+    <MESSAGE value="checking if the database exists.." />
+    <option name="LAST_COMMIT_MESSAGE" value="checking if the database exists.." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Numbers.py" />
@@ -938,7 +943,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PyMysqlCheckDb.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyDbCreateTable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
