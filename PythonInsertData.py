@@ -18,15 +18,17 @@ mycursor = mydb.cursor()
 
 #creating sql statements to save data to table
 
-sql =  "INSERT INTO customers(name,address,contact) values (%s ,%s,%s) "
-val = ("Wandie Innocent","Kampala, Uganda", "0706382817")
+sql =  "INSERT INTO customers (name,address,contact) VALUES (%s ,%s,%s) "
+val = ("Kakyo  Robtert","Kisumu , Kenya", "0706382817")
 
 #exectute the statement
 mycursor.execute(sql,val)
 
 #submit the data to the database
 mydb.commit()
-print(mycursor.rowcount(),"Record Inserted")
+
+#notify_ row inserted successfully
+print(mycursor.rowcount, "record inserted.")
 
 
 
