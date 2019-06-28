@@ -25,6 +25,7 @@ val = ("Kakyo  Robtert","Kisumu , Kenya", "0706382817")
 mycursor.execute(sql,val)
 
 #submit the data to the database
+#this is a required
 mydb.commit()
 
 #notify_ row inserted successfully
