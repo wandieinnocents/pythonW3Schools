@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa5865bd-30f5-4b5c-950e-acf7d3deeb22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PyMysqlFetchData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aa5865bd-30f5-4b5c-950e-acf7d3deeb22" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PyMysqlFetchData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="300">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -198,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PyMysqlFetchData">
+  <component name="RunManager" selected="Python.PyMysqlSelectSpecificColums">
     <configuration name="PyMysqlAlterTablePrimaryKey" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="W3SchoolsPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,27 +217,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PyMysqlCheckTableExists" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="W3SchoolsPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyMysqlCheckTableExists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="PyMysqlFetchData" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="W3SchoolsPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,6 +230,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyMysqlFetchData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PyMysqlSelectSpecificColums" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="W3SchoolsPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyMysqlSelectSpecificColums.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,11 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PyMysqlSelectSpecificColums" />
         <item itemvalue="Python.PyMysqlFetchData" />
         <item itemvalue="Python.PyMysqlinsertMultipleValues" />
         <item itemvalue="Python.PythonInsertData" />
         <item itemvalue="Python.PyMysqlAlterTablePrimaryKey" />
-        <item itemvalue="Python.PyMysqlCheckTableExists" />
       </list>
     </recent_temporary>
   </component>
@@ -324,13 +321,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561096813225</updated>
-    </task>
-    <task id="LOCAL-00011" summary="lists , turples , dictionaries">
-      <created>1561375074747</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1561375074747</updated>
     </task>
     <task id="LOCAL-00012" summary="looping in a list">
       <created>1561375325045</created>
@@ -668,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561731162592</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="fetch data from table [customers]">
+      <created>1561731729123</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1561731729124</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -754,7 +751,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="../" />
     <MESSAGE value="using lambda functions." />
     <MESSAGE value="using lambda.. more" />
     <MESSAGE value="arrays." />
@@ -779,7 +775,8 @@
     <MESSAGE value="insert data to database table" />
     <MESSAGE value="insert data to mysql database successful" />
     <MESSAGE value="insert multiple values to database.." />
-    <option name="LAST_COMMIT_MESSAGE" value="insert multiple values to database.." />
+    <MESSAGE value="fetch data from table [customers]" />
+    <option name="LAST_COMMIT_MESSAGE" value="fetch data from table [customers]" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Numbers.py" />
@@ -992,8 +989,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PyMysqlFetchData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="300">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
         </state>
       </provider>
     </entry>
