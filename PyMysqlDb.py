@@ -18,5 +18,8 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 #create database
-mycursor.execute("CREATE DATABASE w3schools")
+#mycursor.execute("CREATE DATABASE w3schools")
 
+mycursor.execute("SHOW DATABASES")
+for x in mycursor:
+    print(x)
