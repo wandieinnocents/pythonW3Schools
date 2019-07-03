@@ -7,7 +7,8 @@ print(cars[0])
 
 #second element
 print(cars[1])
-print(cars[0])
+# print(cars[0])
+
 
 
 
