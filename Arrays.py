@@ -9,6 +9,9 @@ print(cars[0])
 print(cars[1])
 # print(cars[0])
 
+print("now we are in devopps")
+word = "sample word"
+print(word[2])
 
 
 
